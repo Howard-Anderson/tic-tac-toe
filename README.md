@@ -8,24 +8,27 @@ Filename: README.md
 
 Description: A simple implementation of tic-tac-toe game in C.
 
+***
 
 ##                    HOW TO INSTALL:
 
 1) Clone the Repository.
+    ```Bash
     git clone https://github.com/Howard-Anderson/tic-tac-toe
-
+	```
+---
 2) Change into the Directory.
     
-	```Bash
-    cd tic-tac-toe
+    ```Bash
+		cd tic-tac-toe
     ```
-
+---
 3) Run Makefile to Compile the Game.
     
     ```Bash
-    make 
+		make 
     ```
-    
+***    
 
 
 ##                    INSTRUCTIONS TO PLAY:
@@ -39,8 +42,8 @@ Number of Players: 2
     Player: O
 
     
-###Appendix of Board:
-    
+###	Appendix of Board:
+	```
     -------------
     | 0 | 1 | 2 |
     -------------
@@ -48,7 +51,8 @@ Number of Players: 2
     -------------
     | 6 | 7 | 8 |
     -------------
-
+	```
+---
  + Each Number represents here a position. 
  + Enter the Position that you want to book. 
  + Once a position is booked, it cannot be reused, and it results in loss of a chance.
